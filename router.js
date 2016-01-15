@@ -1,12 +1,12 @@
 var Router = Backbone.Router.extend({
 
     routes: {
-        "":                      "first",
-        "first":                 "first",
-        "first/:query":          "first",
-        "first/:query/:category":"first",
-        "second":                "second",
-        "third":                 "third"
+        "":                       "first",
+        "first":                  "first",
+        "first/:query":           "first",
+        "first/:query/:category": "first",
+        "second":                 "second",
+        "third":                  "third"
     },
 
     initialize: function() {
